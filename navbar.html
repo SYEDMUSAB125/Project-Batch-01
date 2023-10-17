@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation bar</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-color: grey
+        }
+        .navbar{
+            background-color: black;
+            border-radius: 20px;
+            width:90%;
+            margin:  4px auto;          
+            
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li {
+            float: left;
+            list-style: none;
+            margin: 4px 10px;
+
+
+        } 
+        .navbar li a {
+                text-decoration: none;
+                color: white;
+        }
+        .navbar li a:hover {
+                text-decoration: underline;
+                text-decoration-color: aqua;
+                background-color: white;
+                color: black;
+                border-radius: 10px;
+                padding: 3px;
+
+        }
+        .search{
+            color:white;
+            float: right;
+            margin: 2px 60px;
+            
+            
+        }
+        .search input{
+            width: 117px;
+            border-radius: 9px;
+            padding: 1px;
+      
+
+        }
+        .search input:hover{
+           cursor: pointer;
+           
+            
+
+        }
+       
+        
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="./boxmodel.html">Home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Contact us</a></li>
+                <div class="search">
+                    <input type="text" name="text" id="tsearch" placeholder="search this website">
+                </div>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
